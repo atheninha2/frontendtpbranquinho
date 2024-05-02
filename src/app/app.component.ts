@@ -14,8 +14,7 @@ export class AppComponent {
   apiURL: string;
 
   constructor(private http: HttpClient) {
-    this.apiURL =
-      'https://backend-5lv7ewyzq-joao-pedro-ungers-projects.vercel.app';
+    this.apiURL = 'https://backend-api-livid.vercel.app';
     this.READ_tarefas();
   }
 
